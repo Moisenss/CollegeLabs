@@ -1,0 +1,21 @@
+﻿uses GraphABC;
+begin
+  Circle(50,100,10);
+  SetPenColor(clblue);
+  Circle(80,100,10);
+  SetPenColor(clred);
+  Circle(110,100,10);
+  SetPenColor(clYellow);
+  Circle(140,100,10);
+  SetPenColor(clOlive);
+  Circle(170,100,10);
+  SetPenColor(clTeal);
+  Circle(200,100,10);
+  SetPenColor(clMoneyGreen);
+  Circle(230,100,10);
+  SetPenColor(clSilver);
+  Circle(260,100,10);
+  SetPenColor(clSkyBlue);
+  Circle(290,100,10);
+  SetPenColor(clLime);
+end.

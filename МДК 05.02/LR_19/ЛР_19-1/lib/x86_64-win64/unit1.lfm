@@ -1,0 +1,56 @@
+object Form1: TForm1
+  Left = 1382
+  Height = 200
+  Top = 389
+  Width = 471
+  Caption = 'Form1'
+  ClientHeight = 200
+  ClientWidth = 471
+  DesignTimePPI = 120
+  LCLVersion = '4.0.0.4'
+  OnCreate = FormCreate
+  object Edit1: TEdit
+    Left = 224
+    Height = 28
+    Top = 40
+    Width = 192
+    TabOrder = 0
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 224
+    Height = 28
+    Top = 88
+    Width = 192
+    TabOrder = 1
+    OnChange = Edit2Change
+  end
+  object Edit3: TEdit
+    Left = 224
+    Height = 28
+    Top = 144
+    Width = 192
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 56
+    Height = 20
+    Top = 40
+    Width = 137
+    Caption = 'Введите значение x'
+  end
+  object Label2: TLabel
+    Left = 55
+    Height = 20
+    Top = 88
+    Width = 137
+    Caption = 'Введите значение y'
+  end
+  object Label3: TLabel
+    Left = 55
+    Height = 20
+    Top = 144
+    Width = 140
+    Caption = 'Значение функции f'
+  end
+end

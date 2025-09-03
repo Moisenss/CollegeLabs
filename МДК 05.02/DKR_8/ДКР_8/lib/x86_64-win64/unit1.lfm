@@ -1,0 +1,78 @@
+object Form1: TForm1
+  Left = 1370
+  Height = 375
+  Top = 373
+  Width = 500
+  Caption = 'Калькулятор объёма фигуры'
+  ClientHeight = 375
+  ClientWidth = 500
+  Color = clBtnFace
+  DesignTimePPI = 120
+  Font.Color = clWindowText
+  Font.Height = -14
+  Font.Name = 'Tahoma'
+  LCLVersion = '4.0.0.4'
+  OnCreate = FormCreate
+  object LabelParam1: TLabel
+    Left = 30
+    Height = 17
+    Top = 80
+    Width = 61
+    Caption = 'Сторона:'
+  end
+  object LabelParam2: TLabel
+    Left = 30
+    Height = 17
+    Top = 130
+    Width = 53
+    Caption = 'Высота:'
+    Visible = False
+  end
+  object LabelResultCaption: TLabel
+    Left = 30
+    Height = 17
+    Top = 250
+    Width = 47
+    Caption = 'Объём:'
+  end
+  object ComboBoxFigures: TComboBox
+    Left = 30
+    Height = 25
+    Top = 30
+    Width = 181
+    ItemHeight = 17
+    Style = csDropDownList
+    TabOrder = 0
+    OnChange = ComboBoxFiguresChange
+  end
+  object EditParam1: TEdit
+    Left = 110
+    Height = 25
+    Top = 75
+    Width = 151
+    TabOrder = 1
+  end
+  object EditParam2: TEdit
+    Left = 110
+    Height = 25
+    Top = 125
+    Width = 151
+    TabOrder = 2
+    Visible = False
+  end
+  object ButtonCalculate: TButton
+    Left = 30
+    Height = 31
+    Top = 190
+    Width = 94
+    Caption = 'Рассчитать'
+    TabOrder = 3
+    OnClick = ButtonCalculateClick
+  end
+  object LabelResult: TLabel
+    Left = 110
+    Height = 1
+    Top = 250
+    Width = 1
+  end
+end
